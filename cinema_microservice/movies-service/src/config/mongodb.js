@@ -1,6 +1,6 @@
 const MongoClient = require("mongodb").MongoClient;
-var connection = null;
-var db = null;
+let connection = null;
+let db = null;
 
 function connect(callback){
     if(connection) return callback(null, db);

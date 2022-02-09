@@ -14,7 +14,7 @@ function getMovieById(id, callback){
 
 function getMoviePremiers(callback){
 
-    var monthAgo = new Date();
+    const monthAgo = new Date();
     monthAgo.setMonth(monthAgo.getMonth() - 1);
     monthAgo.setHours(0, 0, 0);
     monthAgo.setMilliseconds(0);
